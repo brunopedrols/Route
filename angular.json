@@ -31,7 +31,7 @@
               "./node_modules/hammerjs/hammer.js",
               "./node_modules/materialize-css/dist/js/materialize.js",
               "./node_modules/jqueryui-browser/ui/jquery-ui.js",
-              "./node_modules/jquery-migrate/dist/jquery-migrate.min.js"
+              "./node_modules/jquery-migrate/dist/jquery-migrate.min.js" 
 
             ]
           },
