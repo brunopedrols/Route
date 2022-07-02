@@ -23,9 +23,17 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "./node_modules/materialize-css/dist/css/materialize.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.js",
+              "./node_modules/hammerjs/hammer.js",
+              "./node_modules/materialize-css/dist/js/materialize.js",
+              "./node_modules/jqueryui-browser/ui/jquery-ui.js",
+              "./node_modules/jquery-migrate/dist/jquery-migrate.min.js"
+
+            ]
           },
           "configurations": {
             "production": {
@@ -97,5 +105,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "84204c64-1386-4eec-a8cf-997668b606ed"
   }
 }
